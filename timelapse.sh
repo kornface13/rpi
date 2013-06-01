@@ -4,8 +4,14 @@
 num_one=0
 num_two=0
 
-echo "You should run this inside a screen session to avoid aborting the program if you lose your SSH session."
-echo -n "How often would you like a photo to be taken (in seconds): "
+echo -e "\n\n"
+echo "* * * * * * * * * * * * * * * *"
+echo "* You should run this inside  *"
+echo "*  a screen session so the    *"
+echo "*  timelapse doesn't die if   *"
+echo "*  your SSH session closes    *"
+echo "* * * * * * * * * * * * * * * *"
+echo -en "\n\nHow often would you like a photo to be taken (in seconds): "
 read num_one
 echo -n "How long would you like the time lapse to run (in minutes): "
 read num_two
