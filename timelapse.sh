@@ -13,9 +13,6 @@ read num_two
 often=$((num_one * 1000))
 duration=$((num_two * 1000 * 60))
 
-echo "$often"
-echo "$duration"
-
 echo -e "\n$(((num_two * 60) / num_one)) pictures will be taken\n\n"
 echo -e "Starting now..."
 
