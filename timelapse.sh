@@ -3,6 +3,7 @@
 
 num_one=0
 num_two=0
+testt
 
 echo -e "\n\n"
 echo "* * * * * * * * * * * * * * * *"
